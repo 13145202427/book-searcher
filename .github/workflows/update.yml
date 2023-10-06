@@ -2,7 +2,7 @@ name: Update Fork
 
 on:
   schedule:
-    - cron: '30 9 * * *'  # This schedule triggers the workflow every day at midnight
+    - cron: '30 6 * * *'  # This schedule triggers the workflow every day at midnight
 
 jobs:
   update:
